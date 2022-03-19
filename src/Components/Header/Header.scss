@@ -1,0 +1,80 @@
+@import "src/configStyleSass/Variebles";
+@import "src/configStyleSass/Mixins";
+
+.header {
+  display: flex;
+  height: 83px;
+  border-bottom: 1px solid $lightGray;
+
+  .left-logo {
+    @include centerElement;
+    margin-left: 65px;
+    margin-right: 553px;
+  }
+
+  .search {
+    @include centerElement;
+
+    .input-search {
+      @include centerElement;
+      width: 425px;
+      height: 43px;
+      border-radius: 100px;
+      background: $gradient;
+
+      .input-search-background {
+        @include centerElement;
+        width: 422px;
+        height: 40px;
+        border: 0;
+        border-radius: 100px;
+        background: $white;
+
+        .icon-input {
+          padding: 5px;
+          color: $gray;
+        }
+
+        input {
+          border: 0;
+          width: 335px;
+          margin-left: 5px;
+
+          &:focus {
+            outline: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .right-logo {
+    @include centerElement;
+    margin-left: 52px;
+
+    p {
+      color: $gray;
+    }
+  }
+
+  .notifications {
+    @include centerElement;
+    margin-left: 77px;
+    color: $gray;
+
+    i {
+      font-size: 22px;
+    }
+
+    .badge {
+      background: $gradient;
+      color: #fff;
+      font-size: 12px;
+      border-radius: 50%;
+      padding: 5px;
+      position: relative;
+      bottom: 10px;
+      right: 12px;
+    }
+  }
+}
