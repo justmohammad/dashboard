@@ -1,0 +1,14 @@
+@import "src/configStyleSass/Variebles";
+@import "src/configStyleSass/Mixins";
+
+.overview {
+  .header-overview {
+    margin-bottom: 26px;
+    display: flex;
+
+    i {
+      color: $pink;
+      margin-left: 929px;
+    }
+  }
+}

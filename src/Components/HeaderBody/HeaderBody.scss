@@ -1,0 +1,21 @@
+@import "src/configStyleSass/Variebles";
+@import "src/configStyleSass/Mixins";
+
+.header-body {
+  display: flex;
+  margin-top: 49px;
+  font-size: 12px;
+  color: $gray;
+  margin-bottom: 35px;
+
+  .title-right {
+    display: flex;
+    margin-left: 644px;
+
+    hr {
+      transform: rotate(90deg) translate(-5px, 0px);
+      color: #f012a3;
+      width: 20px;
+    }
+  }
+}

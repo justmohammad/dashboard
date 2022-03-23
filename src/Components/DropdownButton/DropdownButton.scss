@@ -1,0 +1,16 @@
+@import "src/configStyleSass/Variebles";
+@import "src/configStyleSass/Mixins";
+
+.header-card {
+  display: flex;
+  justify-content: flex-end;
+
+  .dropdown-card {
+    button {
+      color: $gray;
+      font-size: 20px;
+      background: $white;
+      border: 0;
+    }
+  }
+}

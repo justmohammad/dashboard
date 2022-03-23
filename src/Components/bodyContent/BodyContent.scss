@@ -1,0 +1,14 @@
+@import "src/configStyleSass/Variebles";
+@import "src/configStyleSass/Mixins";
+
+.body-content {
+  background: $lightGray;
+  width: 1229px;
+  overflow-y: scroll;
+  float: right;
+  @include centerElement;
+
+  .body-container {
+    width: 1023px;
+  }
+}

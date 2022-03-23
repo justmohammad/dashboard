@@ -1,0 +1,47 @@
+@import "src/configStyleSass/Variebles";
+@import "src/configStyleSass/Mixins";
+
+.cards-over {
+  display: flex;
+  margin-bottom: 34px;
+
+  .card-overview {
+    width: 311px;
+    padding: 10px 20px;
+    background: $white;
+    margin-left: 45px;
+    border-radius: 10px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    .body-card {
+      display: flex;
+      margin-top: 10px;
+
+      .content-card {
+        margin-left: 10px;
+        width: 131px;
+
+        .title-card {
+          font-size: 16px;
+          line-height: 24px;
+          color: $gray;
+        }
+
+        .number-card {
+          display: inline-block;
+          font-size: 12px;
+          color: #0e9f0e;
+          margin-top: 40px;
+        }
+
+        .chart-card {
+          display: inline-block;
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}

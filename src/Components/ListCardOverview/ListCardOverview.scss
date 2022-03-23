@@ -1,0 +1,56 @@
+@import "src/configStyleSass/Variebles";
+@import "src/configStyleSass/Mixins";
+
+.listCardOverview {
+  background: $white;
+  border-radius: 10px;
+  margin-bottom: 34px;
+  padding-bottom: 31px;
+
+  .header-list-card {
+    margin: 0 53px 60px 52px;
+    padding-top: 45px;
+    display: flex;
+
+    h5 {
+      margin-right: 835px;
+    }
+  }
+
+  .body-list-card {
+    margin-left: 52px;
+    display: flex;
+
+    .single-list-card {
+      margin-left: 10px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        padding: 28px;
+      }
+    }
+  }
+
+  .button-more-list-card {
+    display: flex;
+    margin: 53px auto auto;
+    padding: 13px 34px 12px 35px;
+    border-radius: 100px;
+    border: 0;
+    height: 42px;
+    background: $gradient;
+
+    a {
+      font-size: 10px;
+      color: $white;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+    }
+  }
+}
